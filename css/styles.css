@@ -1,0 +1,93 @@
+body, button, input, optgroup, select, textarea {
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+body {
+	font-size: 1.1em;
+}
+
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+    background-color: #eaeaea;
+    color: #483e91;
+}
+
+.navbar .navbar-brand img {
+    height: 35px;
+    width: 204px;
+}
+
+.navbar-item img {
+    max-height: 2.75rem;
+}
+
+.actual {
+	background-color: #eaeaea;
+}
+
+.image-actual img {
+	width: 30%;
+}
+
+.image-call img {
+	width: 70%;
+}
+
+.titulillo {
+	font-weight: 700;
+	font-size: 1.1em;
+}
+
+.button	{
+	background-color: #483e91;
+	color: #fff;
+	border-color: #483e91;
+}
+
+.button:hover {
+	color: #fff;
+}
+
+.main-color {
+	color: #483e91;
+}
+
+.secondary-color {
+	color: #f8ad0f;
+}
+
+.title.camote, 
+.subtitle.mail {
+	margin-bottom: 1rem;
+}
+
+.subtitle.bajada, 
+.subtitle.call {
+	margin-bottom: 0;
+}
+
+.footer {
+	padding-bottom: 3rem;
+	background-color: #eaeaea;
+}
+
+.fab {
+	font-size: 2em;
+}
+
+.icon {
+	width: 2.5rem;
+}
+
+.navbar,
+section {
+    padding: 1.5rem 4rem;
+}
+
+a.a-icon {
+	color: #4a4a4a;
+}
+
+.image-pages {
+	display: flex;
+	align-items: flex-end;
+}
