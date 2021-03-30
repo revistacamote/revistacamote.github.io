@@ -91,3 +91,8 @@ a.a-icon {
 	display: flex;
 	align-items: flex-end;
 }
+
+.image-quienes {
+	display: flex;
+	justify-content: flex-end;
+}
