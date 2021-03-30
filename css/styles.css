@@ -80,7 +80,7 @@ body {
 
 .navbar,
 section {
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 2rem;
 }
 
 a.a-icon {
@@ -94,5 +94,17 @@ a.a-icon {
 
 .image-quienes {
 	display: flex;
+	justify-content: flex-start;
+}
+
+@media screen and (min-width: 769px) { 
+
+section {
+    padding: 1.5rem 4rem;
+}
+
+.image-quienes {
 	justify-content: flex-end;
+}
+
 }
