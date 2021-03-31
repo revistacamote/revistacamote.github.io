@@ -32,6 +32,10 @@ body {
 	width: 70%;
 }
 
+.image-call {
+	justify-content: flex-end;
+}
+
 .titulillo {
 	font-weight: 700;
 	font-size: 1.1em;
@@ -95,10 +99,6 @@ a.a-icon {
 .image-quienes {
 	display: flex;
 	justify-content: flex-start;
-}
-
-.call {
-	justify-content: flex-end;
 }
 
 @media screen and (min-width: 769px) { 
