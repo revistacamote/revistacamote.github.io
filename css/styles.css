@@ -20,7 +20,8 @@ body {
     max-height: 2.75rem;
 }
 
-.actual {
+.actual,
+.old {
 	background-color: #eaeaea;
 }
 
@@ -34,6 +35,10 @@ body {
 
 .image-call {
 	justify-content: flex-end;
+}
+
+.old .image.block {
+	margin-bottom: 0.5rem;
 }
 
 .titulillo {
@@ -71,7 +76,7 @@ body {
 
 .footer {
 	padding-bottom: 3rem;
-	background-color: #eaeaea;
+	/*background-color: #eaeaea;*/
 }
 
 .fab {
